@@ -1,0 +1,1283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/git/secp256k1 -f secp256k1.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		8E5A713E7136678B1141D447 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_ecdh.c";
+			name = "bench_ecdh.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		D4E924B26731C61692BFFD6A = {
+			fileRef = "8E5A713E7136678B1141D447";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EC0729D189A5B21C3C30A9C1 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_ecmult.c";
+			name = "bench_ecmult.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		1056B58FCDC616044FF45403 = {
+			fileRef = "EC0729D189A5B21C3C30A9C1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3A7C7B388427D19C347D4B2B = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_internal.c";
+			name = "bench_internal.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		81719A688F4744B217366D5B = {
+			fileRef = "3A7C7B388427D19C347D4B2B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CC016B3D690665E205F390F7 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_recover.c";
+			name = "bench_recover.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		E7B0F7B2DD79268FC06D96FB = {
+			fileRef = "CC016B3D690665E205F390F7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DD8D648585BC8975D11BCB60 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_schnorrsig.c";
+			name = "bench_schnorrsig.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		8D5EF0EEE2A83EC5545B267B = {
+			fileRef = "DD8D648585BC8975D11BCB60";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		664EE77C23FC95F4935EB6FC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_sign.c";
+			name = "bench_sign.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		AAD72F258BED08459E9047A8 = {
+			fileRef = "664EE77C23FC95F4935EB6FC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8819DBD47AB78A639732C217 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench_verify.c";
+			name = "bench_verify.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		0A99AC6EFA7E605DA1FEF0D8 = {
+			fileRef = "8819DBD47AB78A639732C217";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B465A8882BF20AB92939496D = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/gen_context.c";
+			name = "gen_context.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		F297606C8AF6B9BA69B2451E = {
+			fileRef = "B465A8882BF20AB92939496D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D9C872DD3D373FA2AF7CE110 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/tests.c";
+			name = "tests.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		94BA72FF7ECE2E0B954693CB = {
+			fileRef = "D9C872DD3D373FA2AF7CE110";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0A7719FE1F8D5D3CE3DBD6EE = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/tests_exhaustive.c";
+			name = "tests_exhaustive.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		5993A94875276392527EA04E = {
+			fileRef = "0A7719FE1F8D5D3CE3DBD6EE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		739CC8D9EA68B55A65AC080F = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/valgrind_ctime_test.c";
+			name = "valgrind_ctime_test.c";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.c";
+		};
+		15FFD2E37ACCC7F89BA101A2 = {
+			fileRef = "739CC8D9EA68B55A65AC080F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A089306ED1FA14DF0F7EE3DC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/contrib/lax_der_parsing.h";
+			name = "lax_der_parsing.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		649C8DC8225C548E24C40CFB = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/contrib/lax_der_privatekey_parsing.h";
+			name = "lax_der_privatekey_parsing.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5A0A1B2CC5E131A915C9E54A = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/include/secp256k1.h";
+			name = "secp256k1.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E670AFECE989980303ABAD7E = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/include/secp256k1_ecdh.h";
+			name = "secp256k1_ecdh.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		221BC8431B072BCF200E8D9B = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/include/secp256k1_extrakeys.h";
+			name = "secp256k1_extrakeys.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D68A6775F9DF511709F9E25C = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/include/secp256k1_preallocated.h";
+			name = "secp256k1_preallocated.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		848AA49DE583ED1625916E3E = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/include/secp256k1_recovery.h";
+			name = "secp256k1_recovery.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6EDEED3E6B1D5A67C1FFD521 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/include/secp256k1_schnorrsig.h";
+			name = "secp256k1_schnorrsig.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8C6A56FB3B5EDD734A5B856E = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/assumptions.h";
+			name = "assumptions.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C199DFD3FF84D1F200560CAC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/basic-config.h";
+			name = "basic-config.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		721655961FEFBFFF3022F635 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/bench.h";
+			name = "bench.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E1F86FFB1FE77359B4392B9A = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecdsa.h";
+			name = "ecdsa.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5969C237531DAD305FE56BCA = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecdsa_impl.h";
+			name = "ecdsa_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5D2BBC939D3FDF8840C562F9 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/eckey.h";
+			name = "eckey.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E0F91ADF1E665EFCA1FF94ED = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/eckey_impl.h";
+			name = "eckey_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F395FB60722F5774EF770C45 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecmult.h";
+			name = "ecmult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3EAAC4A9E4F6CD38281925C7 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecmult_const.h";
+			name = "ecmult_const.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C01BBD0A63F58CC786E567A5 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecmult_const_impl.h";
+			name = "ecmult_const_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6E3217AEA8E735CFBB7DF03A = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecmult_gen.h";
+			name = "ecmult_gen.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		348DF73B8FC5F47BA07A7A0A = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecmult_gen_impl.h";
+			name = "ecmult_gen_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		21385EA69EA28B6349F157E2 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/ecmult_impl.h";
+			name = "ecmult_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		68A4C9DF6D02236EAAEE4C35 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field.h";
+			name = "field.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		310E8542E5554691691B48AB = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_10x26.h";
+			name = "field_10x26.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C689FF5538CD4FBBD8D286C0 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_10x26_impl.h";
+			name = "field_10x26_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E225328FCD5E8CB4C880A712 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_5x52.h";
+			name = "field_5x52.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E282195F18F30CD75E9F369A = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_5x52_asm_impl.h";
+			name = "field_5x52_asm_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		032E5FA40AB42EB36359219C = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_5x52_impl.h";
+			name = "field_5x52_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D228FB7F4AE074F95F836C22 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_5x52_int128_impl.h";
+			name = "field_5x52_int128_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3C4E8AED3BFF8F1A7C2817B7 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/field_impl.h";
+			name = "field_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CD6FE58151E8DE535CDE288B = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/group.h";
+			name = "group.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9084936E121557B51AA8BF55 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/group_impl.h";
+			name = "group_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8299FC8EB5F9FF1D92207595 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/hash.h";
+			name = "hash.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		58B749F63ADFA58515A3A1A8 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/hash_impl.h";
+			name = "hash_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B3D6AC62B4007244A2AEAF33 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/libsecp256k1-config.h";
+			name = "libsecp256k1-config.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		312C40F0FABA3556C4910C30 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modinv32.h";
+			name = "modinv32.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6EF22E69F63E785A52879892 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modinv32_impl.h";
+			name = "modinv32_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FAF6A9EC6F585364763D7B97 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modinv64.h";
+			name = "modinv64.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		20D69C0D6150D91CC7F91D3A = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modinv64_impl.h";
+			name = "modinv64_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3C26F1E808E5ECAEC8CA181D = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar.h";
+			name = "scalar.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E11EA8BC76543019191080E8 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_4x64.h";
+			name = "scalar_4x64.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F3F7AB16950CB6D69483F6E3 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_4x64_impl.h";
+			name = "scalar_4x64_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		99C119DEE0C8C4DCDA0B7C24 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_8x32.h";
+			name = "scalar_8x32.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D22A78B305FAC09665D6AC30 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_8x32_impl.h";
+			name = "scalar_8x32_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E5BD1311BDAE5F4350A7C742 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_impl.h";
+			name = "scalar_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F26883A4D9317B78793B185C = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_low.h";
+			name = "scalar_low.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C3C17784D9B53BB605E1AF55 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scalar_low_impl.h";
+			name = "scalar_low_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		59638B30425467BDCD23F847 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scratch.h";
+			name = "scratch.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		05206D9DAB8571071D7FB7FE = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/scratch_impl.h";
+			name = "scratch_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3148E9C3D74325E8FC87D1EC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/selftest.h";
+			name = "selftest.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		960FD309F48012A4EEF34D53 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/testrand.h";
+			name = "testrand.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F0D55B36B4497A7A358F5D98 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/testrand_impl.h";
+			name = "testrand_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		95339102A885EDE50576C538 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/util.h";
+			name = "util.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		22DEB9F3AB2D8ACC70365B03 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/ecdh/main_impl.h";
+			name = "main_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6538B1640870A44A39575ACF = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/ecdh/tests_impl.h";
+			name = "tests_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		5CCEBDC6E65DC42B65E38891 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/extrakeys/main_impl.h";
+			name = "main_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		368275388034DFCFAB9BDBA4 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/extrakeys/tests_exhaustive_impl.h";
+			name = "tests_exhaustive_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7C9779FBF8DB672483BD83DC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/extrakeys/tests_impl.h";
+			name = "tests_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		207CE547E5D384BDBECAADDC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/recovery/main_impl.h";
+			name = "main_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		38CF991BE938493B9118BA88 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/recovery/tests_exhaustive_impl.h";
+			name = "tests_exhaustive_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		754431ACC36A95CC0A555A20 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/recovery/tests_impl.h";
+			name = "tests_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CBF0D2FEC8413F3340F9040C = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/schnorrsig/main_impl.h";
+			name = "main_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8698758578620223E29914AC = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/schnorrsig/tests_exhaustive_impl.h";
+			name = "tests_exhaustive_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CAE032937A85A6DC7CF25177 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/src/modules/schnorrsig/tests_impl.h";
+			name = "tests_impl.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4180476CBDE07A397E547A59 = {
+			isa = PBXFileReference;
+			path = "/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/features/data/dummy.cpp";
+			name = "dummy.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1E312F7A11FEE5BB64123427 = {
+			fileRef = "4180476CBDE07A397E547A59";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7F11AE53EF6C26FE9A030171 = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/secp256k1.pro";
+			name = "secp256k1.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		6E2814D370CEABD7CA699A7C = {
+			isa = PBXFileReference;
+			path = "/Users/git/secp256k1/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		2B6B480896D999FE969E9F9C = {
+			isa = PBXGroup;
+			children = (
+				"A089306ED1FA14DF0F7EE3DC",
+				"649C8DC8225C548E24C40CFB");
+			name = "contrib";
+			sourceTree = "<group>";
+		};
+		10C0E51435348D4CF4483294 = {
+			isa = PBXGroup;
+			children = (
+				"5A0A1B2CC5E131A915C9E54A",
+				"E670AFECE989980303ABAD7E",
+				"221BC8431B072BCF200E8D9B",
+				"D68A6775F9DF511709F9E25C",
+				"848AA49DE583ED1625916E3E",
+				"6EDEED3E6B1D5A67C1FFD521");
+			name = "include";
+			sourceTree = "<group>";
+		};
+		921315FAA7F261D737F4F4C7 = {
+			isa = PBXGroup;
+			children = (
+				"8E5A713E7136678B1141D447",
+				"EC0729D189A5B21C3C30A9C1",
+				"3A7C7B388427D19C347D4B2B",
+				"CC016B3D690665E205F390F7",
+				"DD8D648585BC8975D11BCB60",
+				"664EE77C23FC95F4935EB6FC",
+				"8819DBD47AB78A639732C217",
+				"B465A8882BF20AB92939496D",
+				"D9C872DD3D373FA2AF7CE110",
+				"0A7719FE1F8D5D3CE3DBD6EE",
+				"739CC8D9EA68B55A65AC080F",
+				"8C6A56FB3B5EDD734A5B856E",
+				"C199DFD3FF84D1F200560CAC",
+				"721655961FEFBFFF3022F635",
+				"E1F86FFB1FE77359B4392B9A",
+				"5969C237531DAD305FE56BCA",
+				"5D2BBC939D3FDF8840C562F9",
+				"E0F91ADF1E665EFCA1FF94ED",
+				"F395FB60722F5774EF770C45",
+				"3EAAC4A9E4F6CD38281925C7",
+				"C01BBD0A63F58CC786E567A5",
+				"6E3217AEA8E735CFBB7DF03A",
+				"348DF73B8FC5F47BA07A7A0A",
+				"21385EA69EA28B6349F157E2",
+				"68A4C9DF6D02236EAAEE4C35",
+				"310E8542E5554691691B48AB",
+				"C689FF5538CD4FBBD8D286C0",
+				"E225328FCD5E8CB4C880A712",
+				"E282195F18F30CD75E9F369A",
+				"032E5FA40AB42EB36359219C",
+				"D228FB7F4AE074F95F836C22",
+				"3C4E8AED3BFF8F1A7C2817B7",
+				"CD6FE58151E8DE535CDE288B",
+				"9084936E121557B51AA8BF55",
+				"8299FC8EB5F9FF1D92207595",
+				"58B749F63ADFA58515A3A1A8",
+				"B3D6AC62B4007244A2AEAF33",
+				"312C40F0FABA3556C4910C30",
+				"6EF22E69F63E785A52879892",
+				"FAF6A9EC6F585364763D7B97",
+				"20D69C0D6150D91CC7F91D3A",
+				"3C26F1E808E5ECAEC8CA181D",
+				"E11EA8BC76543019191080E8",
+				"F3F7AB16950CB6D69483F6E3",
+				"99C119DEE0C8C4DCDA0B7C24",
+				"D22A78B305FAC09665D6AC30",
+				"E5BD1311BDAE5F4350A7C742",
+				"F26883A4D9317B78793B185C",
+				"C3C17784D9B53BB605E1AF55",
+				"59638B30425467BDCD23F847",
+				"05206D9DAB8571071D7FB7FE",
+				"3148E9C3D74325E8FC87D1EC",
+				"960FD309F48012A4EEF34D53",
+				"F0D55B36B4497A7A358F5D98",
+				"95339102A885EDE50576C538",
+				"0BF18635B2B0B0F5B69DE057");
+			name = "src";
+			sourceTree = "<group>";
+		};
+		0BF18635B2B0B0F5B69DE057 = {
+			isa = PBXGroup;
+			children = (
+				"513635C2CF8600E8DED23701",
+				"6016886A11BAB15D860B3E9C",
+				"83CF272CAF29EB96B4471AA1",
+				"95E6BDBDACA7F7602E97803F");
+			name = "modules";
+			sourceTree = "<group>";
+		};
+		513635C2CF8600E8DED23701 = {
+			isa = PBXGroup;
+			children = (
+				"22DEB9F3AB2D8ACC70365B03",
+				"6538B1640870A44A39575ACF");
+			name = "ecdh";
+			sourceTree = "<group>";
+		};
+		6016886A11BAB15D860B3E9C = {
+			isa = PBXGroup;
+			children = (
+				"5CCEBDC6E65DC42B65E38891",
+				"368275388034DFCFAB9BDBA4",
+				"7C9779FBF8DB672483BD83DC");
+			name = "extrakeys";
+			sourceTree = "<group>";
+		};
+		83CF272CAF29EB96B4471AA1 = {
+			isa = PBXGroup;
+			children = (
+				"207CE547E5D384BDBECAADDC",
+				"38CF991BE938493B9118BA88",
+				"754431ACC36A95CC0A555A20");
+			name = "recovery";
+			sourceTree = "<group>";
+		};
+		95E6BDBDACA7F7602E97803F = {
+			isa = PBXGroup;
+			children = (
+				"CBF0D2FEC8413F3340F9040C",
+				"8698758578620223E29914AC",
+				"CAE032937A85A6DC7CF25177");
+			name = "schnorrsig";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"921315FAA7F261D737F4F4C7",
+				"2B6B480896D999FE969E9F9C",
+				"10C0E51435348D4CF4483294");
+			name = "Sources";
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 = {
+			isa = PBXGroup;
+			children = (
+				"4180476CBDE07A397E547A59");
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"7F11AE53EF6C26FE9A030171",
+				"6E2814D370CEABD7CA699A7C");
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/git/secp256k1 -f secp256k1.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"D4E924B26731C61692BFFD6A",
+				"1056B58FCDC616044FF45403",
+				"81719A688F4744B217366D5B",
+				"E7B0F7B2DD79268FC06D96FB",
+				"8D5EF0EEE2A83EC5545B267B",
+				"AAD72F258BED08459E9047A8",
+				"0A99AC6EFA7E605DA1FEF0D8",
+				"F297606C8AF6B9BA69B2451E",
+				"94BA72FF7ECE2E0B954693CB",
+				"5993A94875276392527EA04E",
+				"15FFD2E37ACCC7F89BA101A2",
+				"1E312F7A11FEE5BB64123427");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		6E1C567B38FB58F727F82FF6 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		EA835AEC0D5FAEA531C11568 = {
+			fileRef = "6E1C567B38FB58F727F82FF6";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		723F90793B2C195E2CCB2233 = {
+			isa = PBXFileReference;
+			name = "AppKit.framework";
+			path = "/System/Library/Frameworks/AppKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		F2A75ACAC9DF6A3F4E5711E7 = {
+			fileRef = "723F90793B2C195E2CCB2233";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		3A8EF9C62A8D4790CBB89CEA = {
+			isa = PBXFileReference;
+			name = "ImageIO.framework";
+			path = "/System/Library/Frameworks/ImageIO.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		61EEC397DC8556BF8C4E36A7 = {
+			fileRef = "3A8EF9C62A8D4790CBB89CEA";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1B2543FCC48E9436F21C4F63 = {
+			isa = PBXFileReference;
+			name = "Metal.framework";
+			path = "/System/Library/Frameworks/Metal.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		B3FE8FAC746D3D5BB24FA398 = {
+			fileRef = "1B2543FCC48E9436F21C4F63";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		9D9893CECB217880A0FDF717 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		9AF5D0E838262DE531A20D85 = {
+			fileRef = "9D9893CECB217880A0FDF717";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"6E1C567B38FB58F727F82FF6",
+				"723F90793B2C195E2CCB2233",
+				"3A8EF9C62A8D4790CBB89CEA",
+				"1B2543FCC48E9436F21C4F63",
+				"9D9893CECB217880A0FDF717",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39",
+				"8D9815BDB5BD9F90D2BC05C5",
+				"D4B32C2222F82AC56BADEB21");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"EA835AEC0D5FAEA531C11568",
+				"F2A75ACAC9DF6A3F4E5711E7",
+				"61EEC397DC8556BF8C4E36A7",
+				"B3FE8FAC746D3D5BB24FA398",
+				"9AF5D0E838262DE531A20D85",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8",
+				"E45E51A644D5FC9F942ECE55",
+				"8771A8C96E9C391044035D99");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		99542592E9780B9225F24AA8 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A329F4E3C98C830E033A735 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "secp256k1.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"7A329F4E3C98C830E033A735");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"B8254625CFD509ED2A24A166",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "secp256k1";
+			sourceTree = "<group>";
+		};
+		16C489CF4CAC8168806165FF = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		EA2FAF925431F188906D68CB = {
+			isa = PBXTargetDependency;
+			target = "16C489CF4CAC8168806165FF";
+		};
+		A36879B9F5423E57863EB098 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508",
+				"99542592E9780B9225F24AA8");
+			dependencies = (
+				"EA2FAF925431F188906D68CB");
+			productReference = "7A329F4E3C98C830E033A735";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "secp256k1";
+			productName = "secp256k1";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "secp256k1";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = ".xcode";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.14";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers",
+					".",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/usr/local/Cellar/qt/6.0.3_2/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/../Frameworks",
+						"-Wl,-rpath,/usr/local/Cellar/qt/6.0.3_2/lib",
+						"-F/usr/local/Cellar/qt/6.0.3_2/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "secp256k1";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "secp256k1";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "secp256k1";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = ".xcode";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.14";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtGui.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/lib/QtCore.framework/Headers",
+					".",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Volumes/DSiMStorage/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/usr/local/Cellar/qt/6.0.3_2/share/qt/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/usr/local/Cellar/qt/6.0.3_2/lib",
+					"/usr/local/Cellar/qt/6.0.3_2/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-stdlib=libc++",
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,@executable_path/../Frameworks",
+						"-Wl,-rpath,/usr/local/Cellar/qt/6.0.3_2/lib",
+						"-F/usr/local/Cellar/qt/6.0.3_2/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = "NO";
+				"ARCHS[sdk=macosx*]" = "x86_64";
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "secp256k1";
+				QMAKE_FULL_VERSION = "1.0.0";
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = "1.0";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "secp256k1";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"A36879B9F5423E57863EB098",
+				"16C489CF4CAC8168806165FF");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

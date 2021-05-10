@@ -10,10 +10,10 @@
 #include <string.h>
 #include <stdint.h>
 
-#include "util.h"
-#include "group.h"
-#include "scalar.h"
-#include "ecmult.h"
+#include "/Users/git/secp256k1/src/util.h"
+#include "/Users/git/secp256k1/src/group.h"
+#include "/Users/git/secp256k1/src/scalar.h"
+#include "/Users/git/secp256k1/src/ecmult.h"
 
 #if defined(EXHAUSTIVE_TEST_ORDER)
 /* We need to lower these values for exhaustive tests because

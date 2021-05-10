@@ -1,0 +1,12 @@
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_ecdh.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_ecmult.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_internal.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_recover.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_schnorrsig.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_sign.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/bench_verify.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/gen_context.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/tests.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/tests_exhaustive.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/valgrind_ctime_test.o
+/Users/git/secp256k1/.xcode/secp256k1.build/Debug/secp256k1.build/Objects-normal/x86_64/dummy.o
